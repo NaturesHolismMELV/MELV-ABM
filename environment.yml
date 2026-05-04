@@ -1,0 +1,16 @@
+name: melv-abm
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.12
+  - numpy>=1.24
+  - pandas>=2.0
+  - scipy>=1.11
+  - matplotlib>=3.7
+  - seaborn>=0.12
+  - jupyter
+  - pip
+  - pip:
+    - mesa==3.5.1
+    - diptest>=0.6
